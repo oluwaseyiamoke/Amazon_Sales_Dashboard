@@ -72,13 +72,10 @@ Here's a breakdown of some of the DAX measures provided:
 
 Here's a breakdown of some of the DAX measures provided:
 
-### 1. Total Revenue Calculation
-
-```DAX
+-- Total Revenue Calculation
 Revenue = SUMX('Amazon', ('Amazon'[Selling Price] * 'Amazon'[Quantity]) + 'Amazon'[Tax 5%])
 
-2. Reference to Previous Month's Revenue
-
+-- Reference to Previous Month's Revenue
 Ref: Previous Revenue = 
 VAR _PreviousMonthView =
    CALCULATE(
@@ -95,8 +92,7 @@ RETURN
        0
    )
 
-3. Variance Calculation and Indicator
-
+-- Variance Calculation and Indicator
 VAR _Arrow =
    IF(_PctChange > 0, "▲+", "▼")
 
