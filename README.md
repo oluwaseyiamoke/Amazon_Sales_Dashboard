@@ -105,7 +105,7 @@ RETURN
        "Variance = 0.0",
        "Variance: " & _Arrow & FORMAT(_PctChange, "0.0%")
    )
-
+```
 ---
 ## Key Questions and Insights
 The dashboard answers the following business questions:
