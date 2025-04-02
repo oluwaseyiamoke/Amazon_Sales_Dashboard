@@ -68,7 +68,12 @@ The Details Page offers a comprehensive view of sales data with tabular informat
 ```DAX
 Revenue = SUMX('Amazon', ('Amazon'[Selling Price] * 'Amazon'[Quantity]) + 'Amazon'[Tax 5%])
 
-2. **Reference to Previous Month's Revenue**
+2. Reference to Previous Month's Revenue
+
+DAX
+Copy
+Edit
+
 
 Ref: Previous Revenue = 
 VAR _PreviousMonthView =
@@ -86,7 +91,7 @@ RETURN
        0
    )
 
-3. **Variance Calculation and Indicator**
+3. Variance Calculation and Indicator
 
 VAR _Arrow =
    IF(_PctChange > 0, "▲+", "▼")
