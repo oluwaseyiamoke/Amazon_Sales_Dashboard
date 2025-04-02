@@ -68,7 +68,13 @@ Here's a breakdown of some of the DAX measures provided:
 
 ### 1. Total Revenue Calculation
 
-DAX
+## Data Analysis
+
+Here's a breakdown of some of the DAX measures provided:
+
+### 1. Total Revenue Calculation
+
+```DAX
 Revenue = SUMX('Amazon', ('Amazon'[Selling Price] * 'Amazon'[Quantity]) + 'Amazon'[Tax 5%])
 
 2. Reference to Previous Month's Revenue
