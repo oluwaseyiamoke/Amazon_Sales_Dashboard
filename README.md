@@ -99,57 +99,49 @@ RETURN
        "Variance: " & _Arrow & FORMAT(_PctChange, "0.0%")
    )
 
-**Key Questions and Insights**
+---
+## Key Questions and Insights
 The dashboard answers the following business questions:
 
-What are the Total Qty, Total Sales, Total Revenue, Cost of Goods Sold, Profit, and Profit Margin for different periods?
+- What are the Total Qty, Total Sales, Total Revenue, Cost of Goods Sold, Profit, and Profit Margin for different periods?
+- How does the current period’s performance compare to previous periods?
+- What are the most and least profitable products?
+- What payment platforms were utilized most?
+- What are the trends in sales and profit over time?
+- Which branches are most profitable in different cities?
+- How do customer demographics (gender and customer type) affect buying trends?
 
-How does the current period’s performance compare to previous periods?
+---
 
-What are the most and least profitable products?
+## Key Findings and Insights
 
-What payment platforms were utilized most?
+### Revenue Trend
+- **Annual Revenue Decline**: Revenue significantly decreased by 86.30% from January to December 2019, indicating a sharp downward trend over the year.
+- **Monthly Revenue Drop**: The revenue trend began to decline notably in May 2019, with a total decrease of 24.85% (equivalent to $3,331.79) over the following six months.
+- **Steepest Revenue Decline**: The largest decline was observed between January 2019 and March 2019, with revenue dropping from $90,684.62 to $76,213.88.
 
-What are the trends in sales and profit over time?
+### Transaction Insights
+- **E-wallet Transactions**: The E-wallet payment method accounted for 34.50% of the total number of transactions, showing strong usage of digital wallets among customers.
 
-Which branches are most profitable in different cities?
+### Branch Performance
+- **Revenue Contribution by Branch and Location**:
+  - **Branch B (Naypyitaw)** contributed 14.91% of the total revenue.
+- **Highest Average Revenue by Branch**: Branch B had the highest average revenue at $41,376.44.
 
-How do customer demographics (gender and customer type) affect buying trends?
+### Customer Demographics - Gender Analysis
+- **Gender Distribution**: The customer base is almost evenly split, with 49.99% male and 50.1% female customers, indicating balanced engagement across genders.
 
-**Key Findings and Insights**
-Revenue Trend
-Annual Revenue Decline: Revenue significantly decreased by 86.30% from January to December 2019, indicating a sharp downward trend over the year.
+### Customer Type Revenue Analysis
+- **Revenue Decline Trends**:
+  - **Member Customers**: Revenue for member customers declined by 88.40%.
+  - **Normal Customers**: Revenue for normal customers declined by 84.20%.
 
-Monthly Revenue Drop: The revenue trend began to decline notably in May 2019, with a total decrease of 24.85% (equivalent to $3,331.79) over the following six months.
+### Preferred Transaction Methods by Customer Type:
+- **Member Customers**: The most common payment method was E-wallet (36.87%).
+- **Normal Customers**: Credit card transactions were the top choice (34.33%).
 
-Steepest Revenue Decline: The largest decline was observed between January 2019 and March 2019, with revenue dropping from $90,684.62 to $76,213.88.
+---
 
-Transaction Insights
-E-wallet Transactions: The E-wallet payment method accounted for 34.50% of the total number of transactions, showing strong usage of digital wallets among customers.
-
-Branch Performance
-Revenue Contribution by Branch and Location:
-
-Branch B (Naypyitaw) contributed 14.91% of the total revenue.
-
-Highest Average Revenue by Branch: Branch B had the highest average revenue at $41,376.44.
-
-Customer Demographics - Gender Analysis
-Gender Distribution: The customer base is almost evenly split, with 49.99% male and 50.1% female customers, indicating balanced engagement across genders.
-
-Customer Type Revenue Analysis
-Revenue Decline Trends:
-
-Member Customers: Revenue for member customers declined by 88.40%.
-
-Normal Customers: Revenue for normal customers declined by 84.20%.
-
-Preferred Transaction Methods by Customer Type:
-Member Customers: The most common payment method was E-wallet (36.87%).
-
-Normal Customers: Credit card transactions were the top choice (34.33%).
-
-**Summary**
-The Amazon Sales Dashboard offers an interactive and user-friendly experience by combining high-level insights on the Overview Page with detailed data exploration options on the Details Page. These features enable users to monitor key sales metrics, identify trends, and make data-driven decisions.
-
+## Summary
+The **Amazon Sales Dashboard** offers an interactive and user-friendly experience by combining high-level insights on the Overview Page with detailed data exploration options on the Details Page. These features enable users to monitor key sales metrics, identify trends, and make data-driven decisions.
 
