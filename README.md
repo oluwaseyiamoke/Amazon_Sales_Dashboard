@@ -62,13 +62,17 @@ The Details Page offers a comprehensive view of sales data with tabular informat
 - **Interactive Charts**: Click on chart elements (e.g., product line) to filter data across the dashboard.
 ---
 
-Data Analysis
-Here's a breakdown of some of the DAX measures provided
+## Data Analysis
 
-1.  1. Total Revenue Calculation
+Here's a breakdown of some of the DAX measures provided:
+
+### 1. Total Revenue Calculation
+
+```DAX
 Revenue = SUMX('Amazon', ('Amazon'[Selling Price] * 'Amazon'[Quantity]) + 'Amazon'[Tax 5%])
 
-2.  Reference to Previous Month's Revenue
+2. Reference to Previous Month's Revenue
+
 Ref: Previous Revenue = 
 VAR _PreviousMonthView =
    CALCULATE(
@@ -84,8 +88,10 @@ RETURN
        _PreviousMonthView & " : " & FORMAT([Previous Revenue], "$#,##"),
        0
    )
+
 3. Variance Calculation and Indicator
- VAR _Arrow =
+
+VAR _Arrow =
    IF(_PctChange > 0, "▲+", "▼")
 
 RETURN 
