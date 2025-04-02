@@ -17,19 +17,21 @@
 ## Project Overview
 The **Amazon Sales Dashboard** is a Power BI project created to analyze Amazon sales data. It offers a high-level overview of sales performance, customer preferences, product categories, and other key insights. The dashboard aims to support data-driven decision-making in product management, marketing strategies, and customer engagement.
 
----
+### Dashboard Preview
+
+#### Amazon Dashboard - Overview
+![Amazon Sales Dashboard](images/overviewdashboard.png)
+
+#### Amazon Sales Dashboard - Details
+![Amazon Sales Dashboard](images/detailsdashboard.png)
 
 ## Data Sources
 - **Sales Transactions Dataset**  
-  Source: Amazon Sales Data available from [Kaggle](https://www.kaggle.com/)
-
----
+  Source: Amazon Sales Data available from Kaggle
 
 ## Tools
-- **Power BI Desktop**: Download from [Microsoft Power BI](https://powerbi.microsoft.com/)
+- **Power BI Desktop**: Download from Microsoft Power BI
 - **Excel or CSV Viewer**: For initial data inspection and cleaning.
-
----
 
 ## Data Cleaning/Preparation
 The following data cleaning steps were performed to ensure the dataset is ready for analysis:
@@ -38,14 +40,10 @@ The following data cleaning steps were performed to ensure the dataset is ready 
 - **Standardize Data Types**
 - **Validate Data Integrity**
 
----
-
 ## Data Modelling
 - **Define Data Model**: Tables and relationships were defined to provide a structured framework.
 - **Create Calendar Date**: A calendar table was created to handle time-based analysis.
 - **Create Measures and Calculated Columns**: DAX measures were written to calculate key metrics like revenue, profit, and variance.
-
----
 
 ## Dashboard Features
 
@@ -62,8 +60,6 @@ The Details Page offers a comprehensive view of sales data with tabular informat
 
 - **Filters and Slicers**: Filters for Month, Region, Product Line, and Customer Type.
 - **Interactive Charts**: Click on chart elements (e.g., product line) to filter data across the dashboard.
-
----
 
 ## DAX Measures
 
