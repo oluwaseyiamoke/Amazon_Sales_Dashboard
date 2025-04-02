@@ -74,7 +74,7 @@ Here's a breakdown of some of the DAX measures provided:
 
 ### 1. Total Revenue Calculation
 
-```DAX
+DAX
 1.  1. Total Revenue Calculation
 Revenue = SUMX('Amazon', ('Amazon'[Selling Price] * 'Amazon'[Quantity]) + 'Amazon'[Tax 5%])
 
